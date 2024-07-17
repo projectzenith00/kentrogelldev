@@ -104,3 +104,30 @@
         margin-bottom: 3rem;
     }
 }
+.typing-container {
+    padding:0% 0% 0% 1%;
+    font-size: 1.375rem;
+    display: block;
+    margin-top: -3%;
+}
+
+.animated-block-container span{
+    color: red!important; 
+    font-family: "Roboto", sans-serif;
+
+}
+.animated-block-container span::after{
+    content: '|';
+    animation-name: blinking; 
+    animation-duration: .71s; 
+    animation-iteration-count: infinite;
+    font-family: "Roboto", sans-serif;
+}
+@keyframes blinking{
+    from{
+        color: transparent; 
+    }
+    to{
+        color: lightgrey; 
+    }
+}
