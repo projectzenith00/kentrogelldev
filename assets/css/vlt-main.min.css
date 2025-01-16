@@ -1098,7 +1098,7 @@ textarea:focus::-webkit-input-placeholder {
 .vlt-navbar-contacts {
     font-size: 1rem;
     white-space: nowrap;
-    text-transform: uppercase;
+/*     text-transform: uppercase; */
 }
 .vlt-navbar-contacts a:hover {
     color: inherit;
