@@ -1461,8 +1461,8 @@ textarea:focus::-webkit-input-placeholder {
     color: rgba(255, 255, 255, 0.6);
 }
 [data-anchor="About"] p {
-    font-size: 0.9375rem;
-    max-width: 24.375rem;
+    font-size: 1.25rem;
+    max-width: 100%;
     color: rgba(255, 255, 255, 0.6);
 }
 [data-anchor="Contact"] p {
